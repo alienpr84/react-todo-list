@@ -1,0 +1,79 @@
+body {
+	padding: 70px;
+}
+
+h1 {
+	margin: 0;
+	padding-left: 5px;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 5px;
+	border-bottom: 1px solid gray;
+}
+
+button {
+	border: none;
+	cursor: pointer;
+	color: white;
+	height: 30px;
+	margin-right: 5px;
+}
+
+.container > div {
+	float: left;
+}
+
+.container > div:first-child {
+	width: 65%;
+	margin-right: 5%;
+}
+
+.container > div:last-child {
+	width: 30%;
+}
+
+hr {
+	background-color: rgb(17, 58, 29);
+	border: none;
+	height: 1px;
+}
+
+input,
+.submit-button {
+	width: 100%;
+}
+
+input {
+	margin-bottom: 10px;
+}
+
+.submit-button {
+	background-color: green;
+}
+
+.remove-button {
+	background-color: #c23f3f;
+}
+
+.separator {
+	margin-bottom: 25px;
+	color: gray;
+}
+
+.done {
+	text-decoration: line-through;
+}
+
+p {
+	cursor: pointer;
+}
